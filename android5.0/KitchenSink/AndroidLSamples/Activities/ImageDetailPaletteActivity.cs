@@ -5,10 +5,10 @@ using Android.App;
 using Android.OS;
 using Android.Views;
 using Android.Widget;
-using Android.Support.V7.Graphics;
 using AndroidLSamples.Utils;
 using Android.Graphics;
 using Android.Graphics.Drawables;
+using AndroidX.Palette.Graphics;
 
 namespace AndroidLSamples
 {

@@ -6,7 +6,6 @@ using Android.Content.Res;
 using Android.Graphics;
 using Android.Graphics.Drawables;
 using Android.OS;
-using Android.Support.V7.Graphics;
 using Android.Transitions;
 using Android.Util;
 using Android.Views;
@@ -20,7 +19,7 @@ using Java.Lang;
 using Java.Interop;
 
 using GoogleIO2014Master.UI;
-
+using AndroidX.Palette.Graphics;
 
 namespace GoogleIO2014Master
 {

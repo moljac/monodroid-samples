@@ -7,7 +7,7 @@ using System.Text;
 using Android.App;
 using Android.OS;
 using Android.Views;
-using Android.Support.V7.Widget;
+using AndroidX.RecyclerView.Widget;
 
 namespace RecyclerViewSample
 {

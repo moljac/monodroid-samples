@@ -12,8 +12,6 @@ using Android.Hardware.Camera2;
 using Android.Graphics;
 using Android.Hardware.Camera2.Params;
 using Android.Media;
-using Android.Support.V13.App;
-using Android.Support.V4.Content;
 using Camera2Basic.Listeners;
 using Java.IO;
 using Java.Lang;
@@ -22,6 +20,8 @@ using Java.Util.Concurrent;
 using Boolean = Java.Lang.Boolean;
 using Math = Java.Lang.Math;
 using Orientation = Android.Content.Res.Orientation;
+using AndroidX.Legacy.App;
+using AndroidX.Core.Content;
 
 namespace Camera2Basic
 {

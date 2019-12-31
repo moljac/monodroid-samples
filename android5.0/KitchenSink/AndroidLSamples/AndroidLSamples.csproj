@@ -14,7 +14,7 @@
     <AndroidApplication>True</AndroidApplication>
     <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
     <AssemblyName>AndroidLSamples</AssemblyName>
-    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <AndroidTlsProvider>
     </AndroidTlsProvider>
@@ -132,17 +132,16 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ItemGroup>
-    <PackageReference Include="Xamarin.Android.Support.v4">
-      <Version>27.0.2</Version>
+    <PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData" Version="2.1.0-rc1" />
+    <PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4" Version="1.0.0-rc1" />
+    <PackageReference Include="Xamarin.AndroidX.CardView" Version="1.0.0-rc1" />
+    <PackageReference Include="Xamarin.AndroidX.Palette" Version="1.0.0-rc1" />
+    <PackageReference Include="Xamarin.AndroidX.RecyclerView" Version="1.0.0-rc1" />
+    <PackageReference Include="Xamarin.AndroidX.Migration">
+      <Version>1.0.0-rc1</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Android.Support.v7.CardView">
-      <Version>27.0.2</Version>
-    </PackageReference>
-    <PackageReference Include="Xamarin.Android.Support.v7.Palette">
-      <Version>27.0.2</Version>
-    </PackageReference>
-    <PackageReference Include="Xamarin.Android.Support.v7.RecyclerView">
-      <Version>27.0.2</Version>
-    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\activity_recycler_view.xml" />
   </ItemGroup>
 </Project>

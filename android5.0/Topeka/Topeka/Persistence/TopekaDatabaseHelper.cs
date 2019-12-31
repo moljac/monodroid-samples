@@ -10,7 +10,6 @@ using Android.Content.Res;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using SQLite;
-
 using Topeka.Helpers;
 using Topeka.Models.Quizzes;
 

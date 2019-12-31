@@ -17,8 +17,6 @@
 using System;
 using System.Collections.Generic;
 using Android.Widget;
-using Android.Support.V7.Widget;
-using Android.Support.V4.App;
 using Android.OS;
 using Android.Views;
 using Android.Content;
@@ -26,13 +24,14 @@ using Android.App;
 using Android.Util;
 using Android.Provider;
 using Java.Lang;
+using AndroidX.RecyclerView.Widget;
 
 namespace DirectorySelection
 {
 	/// <summary>
 	/// Fragment that demonstrates how to use Directory Selection API.
 	/// </summary>
-	public class DirectorySelectionFragment : Android.Support.V4.App.Fragment
+	public class DirectorySelectionFragment : AndroidX.Fragment.App.Fragment //Android.Support.V4.App.Fragment
 	{
 		static readonly string TAG = typeof(DirectorySelectionFragment).Name;
 		

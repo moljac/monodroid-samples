@@ -2,11 +2,10 @@
 
 using Android.App;
 using Android.OS;
-using Android.Support.V4.View.Animation;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
-
+using AndroidX.Interpolator.View.Animation;
 using Topeka.Activities;
 using Topeka.Adapters;
 using Topeka.Helpers;
