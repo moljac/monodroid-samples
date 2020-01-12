@@ -16,7 +16,7 @@
 
 using Android.App;
 using Android.OS;
-using Android.Support.V7.App;
+using AndroidX.AppCompat.App;
 
 namespace com.xamarin.samples.bluetooth.bluetoothchat
 {

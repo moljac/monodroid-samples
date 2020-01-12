@@ -4,7 +4,7 @@ using Android.Widget;
 
 namespace Analytics
 {
-	public class ImageFragment : Android.Support.V4.App.Fragment
+	public class ImageFragment : AndroidX.Fragment.App.Fragment
 	{
 		const string ARG_PATTERN = "pattern";
 		int resId;

@@ -7,19 +7,19 @@ using Android.Content.PM;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using Android.Support.V7.App;
 using Android.Locations;
 using Android.Gms.Location;
 using Android.Gms.Tasks;
 using Android.Provider;
-using Android.Support.Design.Widget;
-using Android.Support.V4.App;
-using Android.Support.V4.Content;
 using Android.Util;
 using Exception = Java.Lang.Exception;
 using Object = Java.Lang.Object;
 using String = System.String;
 using Uri = Android.Net.Uri;
+using AndroidX.AppCompat.App;
+using Google.Android.Material.Snackbar;
+using AndroidX.Core.Content;
+using AndroidX.Core.App;
 
 namespace LocationAddress
 {

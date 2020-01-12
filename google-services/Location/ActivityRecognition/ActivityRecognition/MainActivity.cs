@@ -6,10 +6,10 @@ using Android.Content;
 using Android.Gms.Common.Apis;
 using Android.Gms.Location;
 using Android.OS;
-using Android.Support.V7.App;
 using Android.Widget;
 using Android.Content.PM;
 using Android.Preferences;
+using AndroidX.AppCompat.App;
 
 namespace ActivityRecognition
 {

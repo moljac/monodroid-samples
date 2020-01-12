@@ -3,12 +3,12 @@ using Android;
 using Android.App;
 using Android.Content.PM;
 using Android.OS;
-using Android.Support.Design.Widget;
-using Android.Support.V4.Content;
-using Android.Support.V4.Hardware.Fingerprint;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using AndroidX.Core.Content;
+using AndroidX.Core.Hardware.Fingerprint;
+using Google.Android.Material.Snackbar;
 using Res = Android.Resource;
 
 namespace Xamarin.FingerprintSample

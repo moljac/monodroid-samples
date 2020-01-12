@@ -7,11 +7,11 @@ using Android.Gms.AppInvite;
 using Android.Gms.Common;
 using Android.Gms.Common.Apis;
 using Android.OS;
-using Android.Support.V7.App;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
 using System.Threading.Tasks;
+using AndroidX.AppCompat.App;
 
 namespace AppInvite
 {

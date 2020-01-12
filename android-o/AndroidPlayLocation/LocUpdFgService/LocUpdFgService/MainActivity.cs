@@ -4,14 +4,15 @@ using Android.OS;
 using Android.Content;
 using Java.Lang;
 using Android.Preferences;
-using Android.Support.V4.Content;
-using Android.Support.V4.App;
 using Android;
 using Android.Util;
-using Android.Support.Design.Widget;
 using Android.Net;
 using Android.Locations;
-using Android.Support.V7.App;
+using AndroidX.AppCompat.App;
+using AndroidX.LocalBroadcastManager.Content;
+using AndroidX.Core.Content;
+using AndroidX.Core.App;
+using Google.Android.Material.Snackbar;
 
 namespace LocUpdFgService
 {

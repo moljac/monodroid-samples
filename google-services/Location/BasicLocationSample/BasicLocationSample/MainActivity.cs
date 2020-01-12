@@ -5,20 +5,20 @@ using Android.Content;
 using Android.Content.PM;
 using Android.Widget;
 using Android.OS;
-using Android.Support.V7.App;
 using Android.Gms.Location;
 using Android.Gms.Tasks;
 using Android.Util;
 using Android.Locations;
 using Android.Net;
 using Android.Provider;
-using Android.Support.Design.Widget;
 using Android.Views;
 using static Android.Views.View;
-using Android.Support.V4.App;
-using Android.Support.V4.Content;
 using BasicLocationSample;
 using Resource = BasicLocationSample.Resource;
+using AndroidX.AppCompat.App;
+using AndroidX.Core.Content;
+using Google.Android.Material.Snackbar;
+using AndroidX.Core.App;
 
 namespace BasicLocationSample
 {

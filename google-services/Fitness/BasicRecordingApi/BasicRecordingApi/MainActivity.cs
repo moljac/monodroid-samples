@@ -6,7 +6,6 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using Android.Support.V7.App;
 using Android.Gms.Common.Apis;
 using Android;
 using Android.Gms.Fitness;
@@ -16,6 +15,7 @@ using Android.Gms.Fitness.Result;
 using CommonSampleLibrary;
 using Android.Graphics;
 using System.Threading.Tasks;
+using AndroidX.AppCompat.App;
 
 namespace BasicRecordingApi
 {

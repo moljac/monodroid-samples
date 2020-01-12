@@ -8,12 +8,12 @@ using Android.App;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using Android.Support.Design.Widget;
-using Android.Support.V7.App;
 
 using Xamarin.Android.Net;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using AndroidX.AppCompat.App;
+using Google.Android.Material.Snackbar;
 
 namespace HowsMyTls {
 	[Activity (Label = "How's my TLS?", MainLauncher = true, Icon = "@mipmap/icon")]

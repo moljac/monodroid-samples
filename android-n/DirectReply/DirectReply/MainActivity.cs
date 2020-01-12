@@ -4,6 +4,7 @@ using Android.OS;
 using Android.Content;
 using Android.Support.V4.App;
 using Android.Graphics;
+using AndroidX.Core.App;
 
 namespace DirectReply
 {
@@ -44,7 +45,7 @@ namespace DirectReply
 			var replyText = GetString(Resource.String.reply_text);
 
 			// Create remote input that will read text
-			var remoteInput = new Android.Support.V4.App.RemoteInput.Builder(KEY_TEXT_REPLY)
+			var remoteInput = new AndroidX.Core.App.RemoteInput.Builder(KEY_TEXT_REPLY)
 										 .SetLabel(replyText)
 										 .Build();
 

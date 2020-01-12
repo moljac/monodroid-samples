@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29521.150
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCMSample", "GCMSample\GCMSample.csproj", "{11E7ACE1-A43A-425B-B17D-5EE5EF87700C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GcmSender", "GcmSender\GcmSender.csproj", "{936E2A71-B7E2-4AB1-86D9-1892A19A10D7}"
@@ -13,11 +15,18 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{11E7ACE1-A43A-425B-B17D-5EE5EF87700C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{11E7ACE1-A43A-425B-B17D-5EE5EF87700C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E7ACE1-A43A-425B-B17D-5EE5EF87700C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{11E7ACE1-A43A-425B-B17D-5EE5EF87700C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11E7ACE1-A43A-425B-B17D-5EE5EF87700C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{936E2A71-B7E2-4AB1-86D9-1892A19A10D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{936E2A71-B7E2-4AB1-86D9-1892A19A10D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{936E2A71-B7E2-4AB1-86D9-1892A19A10D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{936E2A71-B7E2-4AB1-86D9-1892A19A10D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4670258-F312-4840-9606-1AE457528187}
 	EndGlobalSection
 EndGlobal

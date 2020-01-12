@@ -44,7 +44,7 @@ namespace ServicesDemo3
 									Log.Debug(TAG, msg);
 									Intent i = new Intent(Constants.NOTIFICATION_BROADCAST_ACTION);
 									i.PutExtra(Constants.BROADCAST_MESSAGE_KEY, msg);
-									Android.Support.V4.Content.LocalBroadcastManager.GetInstance(this).SendBroadcast(i);
+									AndroidX.LocalBroadcastManager.Content.LocalBroadcastManager.GetInstance(this).SendBroadcast(i);
 									handler.PostDelayed(runnable, Constants.DELAY_BETWEEN_LOG_MESSAGES);
 								}
 							});

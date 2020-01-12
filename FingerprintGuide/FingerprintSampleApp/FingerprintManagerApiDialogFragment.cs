@@ -2,15 +2,14 @@
 using Android.App;
 using Android.Hardware.Fingerprints;
 using Android.OS;
-using Android.Support.V4.Hardware.Fingerprint;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using AndroidX.Core.Hardware.Fingerprint;
 using Java.Lang;
 using Javax.Crypto;
-using CancellationSignal = Android.Support.V4.OS.CancellationSignal;
 using Res = Android.Resource;
-
+using CancellationSignal = AndroidX.Core.OS.CancellationSignal;
 // ReSharper disable InconsistentNaming
 // ReSharper disable UseStringInterpolation
 // ReSharper disable UseNullPropagation

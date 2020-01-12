@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29521.150
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationSettings", "LocationSettings\LocationSettings.csproj", "{78F93E64-5DB0-4661-A3C0-BED9A87F9C03}"
 EndProject
 Global
@@ -11,7 +13,14 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{78F93E64-5DB0-4661-A3C0-BED9A87F9C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{78F93E64-5DB0-4661-A3C0-BED9A87F9C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F93E64-5DB0-4661-A3C0-BED9A87F9C03}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{78F93E64-5DB0-4661-A3C0-BED9A87F9C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78F93E64-5DB0-4661-A3C0-BED9A87F9C03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60D6ADB6-9829-4E16-9FF1-B7DBCEB63DA8}
 	EndGlobalSection
 EndGlobal

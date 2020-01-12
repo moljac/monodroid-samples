@@ -3,7 +3,6 @@ using Android.App;
 using Android.Content;
 using Android.Widget;
 using Android.OS;
-using Android.Support.V7.App;
 using System.Collections.Generic;
 using Android;
 using Android.Arch.Lifecycle;
@@ -12,12 +11,13 @@ using Android.Gms.Location;
 using Android.Gms.Tasks;
 using Android.Preferences;
 using Android.Provider;
-using Android.Support.Design.Widget;
-using Android.Support.V4.App;
-using Android.Support.V4.Content;
 using Android.Util;
 using Android.Views;
 using static Android.Support.V4.App.ActivityCompat;
+using AndroidX.AppCompat.App;
+using Google.Android.Material.Snackbar;
+using AndroidX.Core.Content;
+using AndroidX.Core.App;
 
 namespace Geofencing
 {

@@ -4,11 +4,11 @@ using Android.Content;
 using Android.Gms.Common;
 using Android.OS;
 using Android.Preferences;
-using Android.Support.V4.Content;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
-using Android.Support.V7.App;
+using AndroidX.AppCompat.App;
+using AndroidX.LocalBroadcastManager.Content;
 
 namespace GCMSample
 {

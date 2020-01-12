@@ -1,7 +1,6 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
-using Android.Support.V4.App;
 using Android.Content;
 using Android.Gms.Location;
 using Android.Preferences;
@@ -12,7 +11,10 @@ using Android.Support.Design.Widget;
 using Android.Net;
 using Android.Views;
 using Java.Lang;
-using Android.Support.V4.Content;
+using AndroidX.Fragment.App;
+using Google.Android.Material.Snackbar;
+using AndroidX.Core.App;
+using AndroidX.Core.Content;
 
 namespace LocUpdPendIntent
 {

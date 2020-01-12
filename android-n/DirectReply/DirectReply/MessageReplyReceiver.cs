@@ -1,8 +1,7 @@
 ﻿using Android.App;
 using Android.Content;
-using Android.Support.V4.App;
 using Android.Widget;
-using RemoteInput = Android.Support.V4.App.RemoteInput;
+using AndroidX.Core.App;
 
 namespace DirectReply
 {
@@ -49,7 +48,7 @@ namespace DirectReply
 		/// <param name="intent">Intent.</param>
 		static string GetMessageText(Intent intent)
 		{
-			var remoteInput = RemoteInput.GetResultsFromIntent(intent);
+			var remoteInput = AndroidX.Core.App.RemoteInput.GetResultsFromIntent(intent);
 			return remoteInput != null ? remoteInput.GetCharSequence(MainActivity.KEY_TEXT_REPLY) : string.Empty;
 		}
 	}

@@ -1,11 +1,11 @@
 ﻿using System.Linq;
 using Android;
 using Android.Content;
-using Android.Support.Design.Widget;
-using Android.Support.V4.App;
-using Android.Support.V4.Content;
 using AppResource = com.xamarin.samples.bluetooth.bluetoothchat.Resource;
 using AndroidResource = Android.Resource;
+using AndroidX.Core.App;
+using Google.Android.Material.Snackbar;
+using AndroidX.Core.Content;
 
 namespace com.xamarin.samples.bluetooth
 {

@@ -1,17 +1,13 @@
-﻿using Android.Net;
+﻿using System;
 using Android.App;
 using Android.Content;
-using Android.Runtime;
 using Android.Views;
-using Android.Widget;
 using Android.OS;
-using Android.Support.V7.App;
-using Android;
 using Android.Gms.AppInvite;
 using Android.Util;
-using Android.Support.V4.Content;
-using Android.Support.Design.Widget;
-using System;
+using AndroidX.AppCompat.App;
+using Google.Android.Material.Snackbar;
+using AndroidX.LocalBroadcastManager.Content;
 
 namespace AppInvite
 {

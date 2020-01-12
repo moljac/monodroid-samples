@@ -7,13 +7,13 @@ using Android.Content.PM;
 using Android.Gms.Common;
 using Android.Gms.Location;
 using Android.OS;
-using Android.Support.Design.Widget;
-using Android.Support.V4.App;
-using Android.Support.V4.Content;
-using Android.Support.V7.App;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using AndroidX.AppCompat.App;
+using AndroidX.Core.App;
+using AndroidX.Core.Content;
+using Google.Android.Material.Snackbar;
 
 namespace com.xamarin.samples.location.fusedlocationprovider
 {

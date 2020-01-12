@@ -5,11 +5,12 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using Android.Gms.Common.Apis;
-using Android.Support.V7.App;
 using Android.Gms.Common;
 using Android.Util;
 using Android.Gms.Auth.Api.SignIn;
 using Android.Gms.Auth.Api;
+using AndroidX.AppCompat.App;
+using AndroidX.Fragment.App;
 
 namespace SigninQuickstart
 {
@@ -47,7 +48,7 @@ namespace SigninQuickstart
 			// Build a GoogleApiClient with access to the Google Sign-In API and the
 			// options specified by gso.
 			mGoogleApiClient = new GoogleApiClient.Builder(this)
-					.EnableAutoManage(this /* FragmentActivity */, this /* OnConnectionFailedListener */)
+					.EnableAutoManage((FragmentActivity)this /* FragmentActivity */, this /* OnConnectionFailedListener */)
 			        .AddApi(Auth.GOOGLE_SIGN_IN_API, gso)
 					.Build();
 			// [END build_client]

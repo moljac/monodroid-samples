@@ -78,11 +78,14 @@
     <AndroidResource Include="Resources\drawable-xhdpi\ic_notification.png" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Android.Support.Design">
-      <Version>28.0.0.3</Version>
+    <PackageReference Include="Xamarin.AndroidX.AppCompat">
+      <Version>1.1.0-rc1</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Android.Support.v4">
-      <Version>28.0.0.3</Version>
+    <PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData" Version="2.1.0-rc1" />
+    <PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4" Version="1.0.0-rc1" />
+    <PackageReference Include="Xamarin.AndroidX.AppCompat.Resources" Version="1.1.0-rc1" />
+    <PackageReference Include="Xamarin.Google.Android.Material">
+      <Version>1.0.0-rc1</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.GooglePlayServices.Location">
       <Version>71.1600.0</Version>

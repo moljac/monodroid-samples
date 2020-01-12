@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Android.Content;
 using Android.Content.PM;
-using Android.Support.V4.Content;
+using AndroidX.Core.Content;
 
 namespace MessengerCore
 {

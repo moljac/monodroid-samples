@@ -1,7 +1,7 @@
 ﻿using System;
 using Android.Security.Keystore;
-using Android.Support.V4.Hardware.Fingerprint;
 using Android.Util;
+using AndroidX.Core.Hardware.Fingerprint;
 using Java.Security;
 using Javax.Crypto;
 

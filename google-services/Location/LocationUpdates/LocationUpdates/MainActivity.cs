@@ -10,16 +10,16 @@ using Android.Gms.Tasks;
 using Android.Locations;
 using Android.OS;
 using Android.Provider;
-using Android.Support.Design.Widget;
-using Android.Support.V4.App;
-using Android.Support.V4.Content;
-using Android.Support.V7.App;
 using Android.Util;
 using Android.Views;
 using Java.Text;
 using Java.Util;
 using Android.Widget;
-using Toolbar = Android.Support.V7.Widget.Toolbar;
+using AndroidX.AppCompat.App;
+using AndroidX.Core.Content;
+using AndroidX.Core.App;
+using Toolbar = AndroidX.AppCompat.Widget.Toolbar;
+using Google.Android.Material.Snackbar;
 
 namespace LocationUpdates
 {

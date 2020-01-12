@@ -6,9 +6,9 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using Android.Support.V7.App;
 using Android.Gms.Ads;
 using Android;
+using AndroidX.AppCompat.App;
 
 namespace AdMobExample
 {

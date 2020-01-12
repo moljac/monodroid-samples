@@ -10,11 +10,11 @@ using Android.Gms.Fitness.Data;
 using Android.Gms.Fitness.Request;
 using Android.Gms.Fitness.Result;
 using Android.OS;
-using Android.Support.V7.App;
 using Android.Views;
 using CommonSampleLibrary;
 using Java.Util.Concurrent;
 using Android.Graphics;
+using AndroidX.AppCompat.App;
 
 namespace BasicHistoryApi
 {

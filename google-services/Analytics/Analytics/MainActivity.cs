@@ -4,13 +4,13 @@ using Android.App;
 using Android.Content;
 using Android.Gms.Analytics;
 using Android.OS;
-using Android.Support.V4.App;
-using Android.Support.V4.View;
-using Android.Support.V7.App;
 using Android.Util;
 using Android.Views;
 using System.Linq;
 using System.Globalization;
+using AndroidX.AppCompat.App;
+using AndroidX.ViewPager.Widget;
+using AndroidX.Fragment.App;
 
 namespace Analytics
 {
@@ -97,7 +97,7 @@ namespace Analytics
 		{
 			readonly ImageInfo[] infos;
 			readonly Activity that;
-			public ImagePagerAdapter (Activity t, Android.Support.V4.App.FragmentManager fm, ImageInfo[] infos) : base (fm)
+			public ImagePagerAdapter (Activity t, AndroidX.Fragment.App.FragmentManager fm, ImageInfo[] infos) : base (fm)
 			{
 				this.infos = infos;
 				that = t;
@@ -109,7 +109,7 @@ namespace Analytics
 				}
 			}
 
-			public override Android.Support.V4.App.Fragment GetItem (int position)
+			public override AndroidX.Fragment.App.Fragment GetItem (int position)
 			{
 				var info = infos [position];
 				return ImageFragment.Create (info.Image);
