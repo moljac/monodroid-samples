@@ -9,7 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Android.Support.V4.App;
+using AndroidX.Fragment.App;
 using Java.Lang;
 
 namespace Support4
@@ -69,7 +69,7 @@ namespace Support4
 	            public string tag;
 	            public Class clss;
 	            public Bundle args;
-	            public Android.Support.V4.App.Fragment fragment {get; set;}
+	            public AndroidX.Fragment.App.Fragment fragment {get; set;}
 	
 	            public TabInfo(string _tag, Class _class, Bundle _args) {
 	                tag = _tag;
@@ -136,7 +136,7 @@ namespace Support4
 	                }
 	                if (newTab != null) {
 	                    if (newTab.fragment == null) {
-							newTab.fragment = Android.Support.V4.App.Fragment.Instantiate(_activity, newTab.clss.Name, newTab.args);
+							newTab.fragment = AndroidX.Fragment.App.Fragment.Instantiate(_activity, newTab.clss.Name, newTab.args);
 	                        ft.Add(_containerId, newTab.fragment, newTab.tag);
 	                    } else {
 	                        ft.Attach(newTab.fragment);

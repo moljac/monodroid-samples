@@ -5,10 +5,9 @@ using Android.App;
 using Android.Content;
 using Android.Gms.Common;
 using Android.OS;
-using Android.Support.V7.App;
 using Android.Util;
 using Android.Widget;
-
+using AndroidX.AppCompat.App;
 using Uri = Android.Net.Uri;
 
 namespace SimpleMapDemo

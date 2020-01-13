@@ -6,11 +6,12 @@ using System.Linq;
 using Android;
 using Android.Content.PM;
 using Android.OS;
-using Android.Support.Design.Widget;
-using Android.Support.V4.App;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using AndroidX.Core.App;
+using AndroidX.Fragment.App;
+using Google.Android.Material.Snackbar;
 
 namespace com.xamarin.recipes.filepicker
 {

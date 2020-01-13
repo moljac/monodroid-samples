@@ -10,8 +10,8 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-using FragmentManager = Android.Support.V4.App.FragmentManager;
-using Fragment = Android.Support.V4.App.Fragment;
+using FragmentManager = AndroidX.Fragment.App.FragmentManager;
+using Fragment = AndroidX.Fragment.App.Fragment;
 
 namespace MonoIO
 {
@@ -102,7 +102,7 @@ namespace MonoIO
 			return null;
 		}
 		
-		protected override void OnBeforeCommitReplaceFragment(FragmentManager fm, Android.Support.V4.App.FragmentTransaction ft, Fragment fragment)
+		protected override void OnBeforeCommitReplaceFragment(FragmentManager fm, AndroidX.Fragment.App.FragmentTransaction ft, Fragment fragment)
 		{
 			base.OnBeforeCommitReplaceFragment(fm, ft, fragment);
 			

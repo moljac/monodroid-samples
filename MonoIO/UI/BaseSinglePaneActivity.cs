@@ -10,9 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using MonoIO.Utilities;
-using Android.Support.V4.App;
 using MonoIO.UI;
-using Fragment = Android.Support.V4.App.Fragment;
 using Android.Graphics;
 
 namespace MonoIO
@@ -20,7 +18,7 @@ namespace MonoIO
 	[Activity (Label = "BaseSinglePaneActivity")]			
 	public abstract class BaseSinglePaneActivity : BaseActivity
 	{
-		private Fragment fragment;
+		private AndroidX.Fragment.App.Fragment fragment;
 
 		protected override void OnCreate (Bundle savedInstanceState)
 		{
@@ -42,7 +40,7 @@ namespace MonoIO
 			}
 		}
 		
-		protected abstract Fragment OnCreatePane ();
+		protected abstract AndroidX.Fragment.App.Fragment OnCreatePane ();
 	}
 }
 

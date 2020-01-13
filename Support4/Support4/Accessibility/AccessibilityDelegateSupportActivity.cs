@@ -10,8 +10,8 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.Util;
-using Android.Support.V4.View;
-using Android.Support.V4.View.Accessibility;
+using AndroidX.Core.View;
+using AndroidX.Core.View.Accessibiity;
 
 namespace Support4
 {

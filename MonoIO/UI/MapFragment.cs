@@ -10,11 +10,10 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.Webkit;
-using Android.Support.V4.App;
 using Android.Util;
 using Uri = Android.Net.Uri;
 using MonoIO.UI;
-using Fragment = Android.Support.V4.App.Fragment;
+using Fragment = AndroidX.Fragment.App.Fragment;
 using Java.Interop;
 
 namespace MonoIO

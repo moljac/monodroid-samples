@@ -31,13 +31,13 @@ using Android.Support.V4.App;
 using MonoIO.Utilities;
 using Android.Text.Format;
 using Android.Database;
-using Fragment = Android.Support.V4.App.Fragment;
-using Android.Support.V4.View;
+using Fragment = AndroidX.Fragment.App.Fragment;
 using Math = Java.Lang.Math;
 using MonoIO.UI.Widget;
 using Android.Provider;
 using Uri = Android.Net.Uri;
 using Android.Graphics.Drawables;
+using AndroidX.Core.View;
 
 namespace MonoIO.UI
 {

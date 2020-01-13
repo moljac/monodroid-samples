@@ -9,7 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Android.Support.V4.App;
+using AndroidX.Fragment.App;
 
 namespace Support4
 {
@@ -44,7 +44,7 @@ namespace Support4
 	        newFragment.Show(SupportFragmentManager, "dialog");
 	    }
 		
-		public class MyDialogFragment : Android.Support.V4.App.DialogFragment
+		public class MyDialogFragment : AndroidX.Fragment.App.DialogFragment
 		{	
 	
 			public MyDialogFragment()

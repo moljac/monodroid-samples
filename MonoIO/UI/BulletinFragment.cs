@@ -32,7 +32,7 @@ using Java.Net;
 using Java.IO;
 using Android.Support.V4.App;
 using Pattern = Java.Util.Regex.Pattern;
-using Fragment = Android.Support.V4.App.Fragment;
+using Fragment = AndroidX.Fragment.App.Fragment;
 
 namespace MonoIO.UI
 {

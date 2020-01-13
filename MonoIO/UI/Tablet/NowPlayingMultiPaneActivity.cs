@@ -10,8 +10,8 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-using FragmentManager = Android.Support.V4.App.FragmentManager;
-using Fragment = Android.Support.V4.App.Fragment;
+using FragmentManager = AndroidX.Fragment.App.FragmentManager;
+using Fragment = AndroidX.Fragment.App.Fragment;
 
 namespace MonoIO
 {

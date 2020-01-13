@@ -10,8 +10,8 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-using ListFragment = Android.Support.V4.App.ListFragment;
-using Fragment = Android.Support.V4.App.Fragment;
+using ListFragment = AndroidX.Fragment.App.ListFragment;
+using Fragment = AndroidX.Fragment.App.Fragment;
 
 using Uri = Android.Net.Uri;
 using MonoIO.UI;

@@ -1,8 +1,8 @@
 using Android.App;
 using Android.OS;
-using Android.Support.V7.App;
 using Android.Util;
 using Android.Widget;
+using AndroidX.AppCompat.App;
 
 namespace com.xamarin.sample.splashscreen
 {

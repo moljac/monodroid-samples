@@ -23,8 +23,7 @@ using Android.Widget;
 using Android.OS;
 using MonoIO.Utilities;
 using MonoIO.UI;
-using Fragment = Android.Support.V4.App.Fragment;
-using Android.Support.V4.App;
+using Fragment = AndroidX.Fragment.App.Fragment;
 using Android.Graphics;
 
 namespace MonoIO

@@ -74,9 +74,12 @@ namespace MonoIO
 		
 		protected override void OnDraw (Canvas canvas)
 		{
-			int sc = canvas.SaveLayer(mBoundsF, mCopyPaint, SaveFlags.HasAlphaLayer | SaveFlags.FullColorLayer);
+			int sc = canvas.SaveLayer(mBoundsF, mCopyPaint
+										//SaveFlags.HasAlphaLayer | SaveFlags.FullColorLayer
+										//SaveFlags.All
+										);
 	        mMaskDrawable.Draw(canvas);
-	        canvas.SaveLayer(mBoundsF, mMaskedPaint, 0);
+			canvas.SaveLayer(mBoundsF, mMaskedPaint); //, 0);
 	        base.OnDraw(canvas);
 	        canvas.RestoreToCount(sc);
 	        mBorderDrawable.Draw(canvas);

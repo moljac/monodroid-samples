@@ -9,7 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Android.Support.V4.App;
+using AndroidX.Fragment.App;
 
 namespace Support4
 {
@@ -81,7 +81,7 @@ namespace Support4
 	        return "STYLE_NORMAL";
     	}
 		
-		public class MyDialogFragment : Android.Support.V4.App.DialogFragment
+		public class MyDialogFragment : AndroidX.Fragment.App.DialogFragment
 		{
 			int num;
 			
@@ -108,15 +108,15 @@ namespace Support4
 				num = Arguments.GetInt("num");
 	
 	            // Pick a style based on the num.
-	            int style = Android.Support.V4.App.DialogFragment.StyleNormal, theme = 0;
+	            int style = AndroidX.Fragment.App.DialogFragment.StyleNormal, theme = 0;
 	            switch ((num-1)%6) {
-	                case 1: style = Android.Support.V4.App.DialogFragment.StyleNoTitle; break;
-	                case 2: style = Android.Support.V4.App.DialogFragment.StyleNoFrame; break;
-	                case 3: style = Android.Support.V4.App.DialogFragment.StyleNoInput; break;
-	                case 4: style = Android.Support.V4.App.DialogFragment.StyleNormal; break;
-	                case 5: style = Android.Support.V4.App.DialogFragment.StyleNoTitle; break;
-	                case 6: style = Android.Support.V4.App.DialogFragment.StyleNoFrame; break;
-	                case 7: style = Android.Support.V4.App.DialogFragment.StyleNormal; break;
+	                case 1: style = AndroidX.Fragment.App.DialogFragment.StyleNoTitle; break;
+	                case 2: style = AndroidX.Fragment.App.DialogFragment.StyleNoFrame; break;
+	                case 3: style = AndroidX.Fragment.App.DialogFragment.StyleNoInput; break;
+	                case 4: style = AndroidX.Fragment.App.DialogFragment.StyleNormal; break;
+	                case 5: style = AndroidX.Fragment.App.DialogFragment.StyleNoTitle; break;
+	                case 6: style = AndroidX.Fragment.App.DialogFragment.StyleNoFrame; break;
+	                case 7: style = AndroidX.Fragment.App.DialogFragment.StyleNormal; break;
 	            }
 	            switch ((num-1)%6) {
 	                case 2: theme = Android.Resource.Style.ThemePanel; break;

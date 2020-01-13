@@ -9,7 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Android.Support.V4.App;
+using AndroidX.Fragment.App;
 
 namespace Support4
 {
@@ -32,7 +32,7 @@ namespace Support4
 	        }
 		}
 		
-		public class MyFragment : Android.Support.V4.App.Fragment
+		public class MyFragment : AndroidX.Fragment.App.Fragment
 		{
 			string mLabel;
 			

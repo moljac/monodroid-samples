@@ -9,7 +9,6 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Fragment = Android.Support.V4.App.Fragment;
 using Android.Text.Style;
 using Android.Graphics;
 using MonoIO.UI;
@@ -19,6 +18,7 @@ using MonoIO.Utilities;
 using Android.Text;
 using Android.Database;
 using Android.Text.Method;
+using Fragment = AndroidX.Fragment.App.Fragment;
 
 namespace MonoIO
 {

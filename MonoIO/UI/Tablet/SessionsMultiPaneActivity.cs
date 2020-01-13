@@ -10,7 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-using FragmentManager = Android.Support.V4.App.FragmentManager;
+using FragmentManager = AndroidX.Fragment.App.FragmentManager;
 using Android.Graphics;
 
 namespace MonoIO

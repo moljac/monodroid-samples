@@ -9,15 +9,13 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Android.Support.V4.App;
 using Android.Provider;
-using Android.Support.V4.Content;
 using Android.Database;
-using Android.Support.V4.View;
-using Android.Support.V4.Widget;
 using Android.Text;
+using AndroidX.Fragment.App;
 
-using SimpleCursorAdapter = Android.Support.V4.Widget.SimpleCursorAdapter;
+using SimpleCursorAdapter = AndroidX.CursorAdapter.Widget.SimpleCursorAdapter;
+using AndroidX.Core.View;
 
 namespace Support4
 {
@@ -38,7 +36,7 @@ namespace Support4
 	        }
 		}
 		
-		public class CursorLoaderListFragment : Android.Support.V4.App.ListFragment, Android.Support.V4.App.LoaderManager.ILoaderCallbacks
+		public class CursorLoaderListFragment : AndroidX.Fragment.App.ListFragment, AndroidX.Loader.App.LoaderManager.ILoaderCallbacks
 		{
 			LoaderCursorSupport parent;
 
@@ -76,11 +74,11 @@ namespace Support4
 	
 	            // Start out with a progress indicator.
 	            SetListShown(false);
-				
-	
-	            // Prepare the loader.  Either re-connect with an existing one,
-	            // or start a new one.
-				LoaderManager.InitLoader (0, null, this);
+
+
+				// Prepare the loader.  Either re-connect with an existing one,
+				// or start a new one.
+				base.LoaderManager.InitLoader (0, null, this);
 			}
 
 			class MyOnQueryTextListenerCompat : Java.Lang.Object, SearchView.IOnQueryTextListener
@@ -130,7 +128,7 @@ namespace Support4
 	        };
 			
 			#region ILoaderCallbacks implementation
-			public Android.Support.V4.Content.Loader OnCreateLoader (int p0, Bundle p1)
+			public AndroidX.Loader.Content.Loader OnCreateLoader (int p0, Bundle p1)
 			{
 				// This is called when a new Loader needs to be created.  This
 	            // sample only has one Loader, so we don't care about the ID.
@@ -147,12 +145,12 @@ namespace Support4
 	            // creating a Cursor for the data being displayed.
 	            string select = "((" + Contacts.People.InterfaceConsts.DisplayName + " NOTNULL) AND ("
 	                    + Contacts.People.InterfaceConsts.DisplayName + " != '' ))";
-	            return new Android.Support.V4.Content.CursorLoader(Activity, baseUri,
+	            return new AndroidX.Loader.Content.CursorLoader(Activity, baseUri,
 	                    CONTACTS_SUMMARY_PROJECTION, select, null,
 	                    Contacts.People.InterfaceConsts.DisplayName + " COLLATE LOCALIZED ASC");
 			}
 			
-			public void OnLoadFinished (Android.Support.V4.Content.Loader loader, Java.Lang.Object data)
+			public void OnLoadFinished (AndroidX.Loader.Content.Loader loader, Java.Lang.Object data)
 			{
 				// Swap the new cursor in.  (The framework will take care of closing the
 	            // old cursor once we return.)
@@ -165,15 +163,16 @@ namespace Support4
 					SetListShownNoAnimation(true);
 			}
 
-			public void OnLoaderReset (Android.Support.V4.Content.Loader p0)
+			public void OnLoaderReset (AndroidX.Loader.Content.Loader p0)
 			{
 				// This is called when the last Cursor provided to onLoadFinished()
 	            // above is about to be closed.  We need to make sure we are no
 	            // longer using it.
 				_adapter.SwapCursor(null);
 			}
+
 			#endregion
-			
+
 		}
 
 	}

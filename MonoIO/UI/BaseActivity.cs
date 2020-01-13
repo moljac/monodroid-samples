@@ -4,9 +4,9 @@ using System.Text;
 using Android.App;
 using Android.OS;
 using Android.Content;
-using Android.Support.V4.App;
 using Uri = Android.Net.Uri;
 using MonoIO.Utilities;
+using AndroidX.Fragment.App;
 
 namespace MonoIO.UI
 {

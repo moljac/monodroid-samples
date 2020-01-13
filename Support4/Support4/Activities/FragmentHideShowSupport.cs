@@ -9,7 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Android.Support.V4.App;
+using AndroidX.Fragment.App;
 
 namespace Support4
 {
@@ -30,7 +30,7 @@ namespace Support4
 	        AddShowHideListener(Resource.Id.frag2hide, fm.FindFragmentById(Resource.Id.fragment2));
 		}
 		
-		void AddShowHideListener(int buttonId, Android.Support.V4.App.Fragment fragment)
+		void AddShowHideListener(int buttonId, AndroidX.Fragment.App.Fragment fragment)
 		{
 	        var button = FindViewById<Button>(buttonId);
 			button.Click += (sender, e) => {
@@ -47,7 +47,7 @@ namespace Support4
 			};
 	    }
 		
-		protected class FirstFragment : Android.Support.V4.App.Fragment
+		protected class FirstFragment : AndroidX.Fragment.App.Fragment
 		{
 			TextView textView;
 			
@@ -73,7 +73,7 @@ namespace Support4
 			}
 		}
 		
-		protected class SecondFragment : Android.Support.V4.App.Fragment
+		protected class SecondFragment : AndroidX.Fragment.App.Fragment
 		{
 			public override View OnCreateView (LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
 			{

@@ -9,8 +9,8 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Android.Support.V4.App;
-using Android.Support.V4.View;
+using AndroidX.Fragment.App;
+using AndroidX.ViewPager.Widget;
 
 namespace Support4
 {
@@ -45,7 +45,7 @@ namespace Support4
 		
 		protected class MyAdapter : FragmentPagerAdapter 
 		{
-	        public MyAdapter(Android.Support.V4.App.FragmentManager fm) : base(fm)
+	        public MyAdapter(AndroidX.Fragment.App.FragmentManager fm) : base(fm)
 			{
 			}
 	
@@ -55,14 +55,14 @@ namespace Support4
 				}
 			}
 			
-			public override Android.Support.V4.App.Fragment GetItem (int position)
+			public override AndroidX.Fragment.App.Fragment GetItem (int position)
 			{
 				return new ArrayListFragment(position);
 			}
 	
 	    }
 		
-		protected class ArrayListFragment : Android.Support.V4.App.ListFragment
+		protected class ArrayListFragment : AndroidX.Fragment.App.ListFragment
 		{
 			int num;
 			

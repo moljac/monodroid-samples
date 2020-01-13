@@ -9,7 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Android.Support.V4.App;
+using AndroidX.Fragment.App;
 
 namespace Support4
 {
@@ -62,12 +62,12 @@ namespace Support4
 	        // on to the back stack.
 	        var ft = SupportFragmentManager.BeginTransaction();
 	        ft.Replace(Resource.Id.simple_fragment, newFragment);
-	        ft.SetTransition(Android.Support.V4.App.FragmentTransaction.TransitFragmentOpen);
+	        ft.SetTransition(AndroidX.Fragment.App.FragmentTransaction.TransitFragmentOpen);
 	        ft.AddToBackStack(null);
 	        ft.Commit();
 		}
 		
-		public class CountingFragment : Android.Support.V4.App.Fragment
+		public class CountingFragment : AndroidX.Fragment.App.Fragment
 		{
 			int _num;
 			

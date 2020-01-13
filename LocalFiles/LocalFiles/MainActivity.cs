@@ -4,10 +4,10 @@ using Android;
 using Android.App;
 using Android.Content.PM;
 using Android.OS;
-using Android.Support.Design.Widget;
-using Android.Support.V7.App;
 using Android.Util;
 using Android.Widget;
+using AndroidX.AppCompat.App;
+using Google.Android.Material.Snackbar;
 
 namespace LocalFiles
 {

@@ -10,7 +10,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Android.Support.V4.App;
+using AndroidX.Fragment.App;
 
 namespace Support4
 {
@@ -28,7 +28,7 @@ namespace Support4
 			}
 		}
 		
-		protected class UiFragment : Android.Support.V4.App.Fragment
+		protected class UiFragment : AndroidX.Fragment.App.Fragment
 		{
 			RetainedFragment workFragment;
 			
@@ -65,7 +65,7 @@ namespace Support4
 			
 		}
 		
-		protected class RetainedFragment : Android.Support.V4.App.Fragment
+		protected class RetainedFragment : AndroidX.Fragment.App.Fragment
 		{
 			ProgressBar progressBar;
 			int position;

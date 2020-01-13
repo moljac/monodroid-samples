@@ -9,7 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Android.Support.V4.App;
+using AndroidX.Fragment.App;
 using Android.Util;
 using Android.Locations;
 using Android.Preferences;
@@ -55,7 +55,7 @@ namespace Support4
 			}
 	    }
 		
-		public class TitlesFragment : Android.Support.V4.App.ListFragment
+		public class TitlesFragment : AndroidX.Fragment.App.ListFragment
 		{
 			bool dualPane;
         	int curCheckPosition = 0;
@@ -119,7 +119,7 @@ namespace Support4
 						
 						var ft = FragmentManager.BeginTransaction();
 						ft.Replace(Resource.Id.details, details);
-						ft.SetTransition(Android.Support.V4.App.FragmentTransaction.TransitFragmentFade);
+						ft.SetTransition(AndroidX.Fragment.App.FragmentTransaction.TransitFragmentFade);
 						ft.Commit();
 					}
 				}
@@ -133,7 +133,7 @@ namespace Support4
 			}
 		}
 		
-		public class DetailsFragment : Android.Support.V4.App.Fragment
+		public class DetailsFragment : AndroidX.Fragment.App.Fragment
 		{
 			public DetailsFragment()
 			{

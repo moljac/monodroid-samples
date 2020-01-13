@@ -3,9 +3,9 @@ using Android.Content.PM;
 using Android.Gms.Maps;
 using Android.OS;
 using Android.Runtime;
-using Android.Support.Design.Widget;
-using Android.Support.V7.App;
 using Android.Util;
+using AndroidX.AppCompat.App;
+using Google.Android.Material.Snackbar;
 
 namespace SimpleMapDemo
 {

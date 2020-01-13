@@ -6,9 +6,9 @@ using Android.App;
 using Android.Content;
 using Android.Content.PM;
 using Android.Runtime;
-using Android.Support.Design.Widget;
-using Android.Support.V4.Content;
 using Android.Views;
+using AndroidX.Core.Content;
+using Google.Android.Material.Snackbar;
 
 namespace com.xamarin.recipes.filepicker
 {

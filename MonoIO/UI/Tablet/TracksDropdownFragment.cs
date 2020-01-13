@@ -12,7 +12,7 @@ using Android.Widget;
 using MonoIO.UI;
 using Android.Database;
 using MonoIO.Utilities;
-using Fragment = Android.Support.V4.App.Fragment;
+using Fragment = AndroidX.Fragment.App.Fragment;
 using Uri = Android.Net.Uri;
 using Android.Graphics;
 

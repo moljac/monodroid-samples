@@ -17,8 +17,8 @@ using MonoIO.UI;
 using Android.Database;
 using Android.Text;
 using MonoIO.Utilities;
-using Fragment = Android.Support.V4.App.Fragment;
-using ListFragment = Android.Support.V4.App.ListFragment;
+using Fragment = AndroidX.Fragment.App.Fragment;
+using ListFragment = AndroidX.Fragment.App.ListFragment;
 using Android.Graphics;
 
 namespace MonoIO

@@ -9,8 +9,8 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Android.Support.V4.App;
 using Android.Util;
+using AndroidX.Fragment.App;
 
 namespace Support4
 {
@@ -27,7 +27,7 @@ namespace Support4
 	        SupportFragmentManager.BeginTransaction().Add(Android.Resource.Id.Content, content).Commit();
 		}
 		
-		public class ContextMenuFragment : Android.Support.V4.App.Fragment
+		public class ContextMenuFragment : AndroidX.Fragment.App.Fragment
 		{	
 			public override View OnCreateView (LayoutInflater inflater, ViewGroup container, Bundle p2)
 			{

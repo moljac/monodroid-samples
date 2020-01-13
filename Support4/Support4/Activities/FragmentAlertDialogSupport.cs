@@ -9,9 +9,8 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-
-using Android.Support.V4.App;
 using Android.Util;
+using AndroidX.Fragment.App;
 
 namespace Support4
 {
@@ -53,7 +52,7 @@ namespace Support4
 	        Log.Info("FragmentAlertDialog", "Negative click!");
 	    }
 		
-		public class MyAlertDialogFragment : Android.Support.V4.App.DialogFragment
+		public class MyAlertDialogFragment : AndroidX.Fragment.App.DialogFragment
 		{	
     	    public MyAlertDialogFragment (int title) 
 			{

@@ -9,8 +9,8 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Android.Support.V4.App;
-using Android.Support.V4.View;
+using AndroidX.Core.View;
+using AndroidX.Fragment.App;
 
 namespace Support4
 {
@@ -18,8 +18,8 @@ namespace Support4
 	[IntentFilter (new[]{Intent.ActionMain}, Categories = new[]{ "mono.support4demo.sample" })]
 	public class FragmentMenuSupport : FragmentActivity
 	{
-		Android.Support.V4.App.Fragment fragment1;
-	    Android.Support.V4.App.Fragment fragment2;
+		AndroidX.Fragment.App.Fragment fragment1;
+	    AndroidX.Fragment.App.Fragment fragment2;
 	    CheckBox checkBox1;
 	    CheckBox checkBox2;
 		
@@ -70,7 +70,7 @@ namespace Support4
 			ft.Commit();
 		}
 		
-		protected class MenuFragment : Android.Support.V4.App.Fragment
+		protected class MenuFragment : AndroidX.Fragment.App.Fragment
 		{
 			public override void OnCreate (Bundle p0)
 			{
@@ -91,7 +91,7 @@ namespace Support4
 			}
 		}
 		
-		protected class Menu2Fragment : Android.Support.V4.App.Fragment
+		protected class Menu2Fragment : AndroidX.Fragment.App.Fragment
 		{
 			public override void OnCreate (Bundle p0)
 			{

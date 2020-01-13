@@ -9,7 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Android.Support.V4.App;
+using AndroidX.Fragment.App;
 
 namespace Support4
 {
@@ -28,7 +28,7 @@ namespace Support4
 	        }
 		}
 		
-		public class ArrayListFragment : Android.Support.V4.App.ListFragment
+		public class ArrayListFragment : AndroidX.Fragment.App.ListFragment
 		{
 			public override void OnActivityCreated (Bundle p0)
 			{

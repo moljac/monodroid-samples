@@ -12,8 +12,8 @@ using Android.Widget;
 using Android.Graphics.Drawables;
 using Android.Util;
 using Java.Lang;
-using Android.Support.V4.View;
 using Math = Java.Lang.Math;
+using AndroidX.Core.View;
 
 namespace MonoIO.UI.Widget
 {

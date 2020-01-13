@@ -9,8 +9,8 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Android.Support.V4.App;
 using Android.Text;
+using AndroidX.Fragment.App;
 
 namespace Support4
 {
@@ -38,7 +38,7 @@ namespace Support4
 			// Create your application here
 		}
 		
-		public class ReceiveResultFragment : Android.Support.V4.App.Fragment
+		public class ReceiveResultFragment : AndroidX.Fragment.App.Fragment
 		{
 			private const int GET_CODE = 0;
 			private TextView results;
