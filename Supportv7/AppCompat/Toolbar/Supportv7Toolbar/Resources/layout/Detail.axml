@@ -49,7 +49,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content" />
             </RadioGroup>
-            <android.support.v7.widget.SwitchCompat
+            <androidx.appcompat.widget.SwitchCompat
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="Switch" />

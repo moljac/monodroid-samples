@@ -11,9 +11,7 @@ using Android.Content;
 using Android.Runtime;
 
 using Squareup.Picasso;
-
-using Android.Support.V17.Leanback.App;
-using Android.Support.V17.Leanback.Widget;
+using AndroidX.Leanback.Widget;
 
 namespace TvLeanback
 {
@@ -92,7 +90,7 @@ namespace TvLeanback
 
 	}
 
-	public class CustomViewHolder : Android.Support.V17.Leanback.Widget.Presenter.ViewHolder
+	public class CustomViewHolder : AndroidX.Leanback.Widget.Presenter.ViewHolder
 	{
 		private readonly Context mContext;
 

@@ -1,11 +1,11 @@
 ﻿using System;
 
 using Android.Views;
-using Android.Support.V17.Leanback.Widget;
-using Android.Support.V17.Leanback.App;
 using Android.Util;
 
-using SupportViewholder = Android.Support.V17.Leanback.Widget.AbstractDetailsDescriptionPresenter.ViewHolder;
+using SupportViewholder = AndroidX.Leanback.Widget.AbstractDetailsDescriptionPresenter.ViewHolder;
+using AndroidX.Leanback.Widget;
+
 namespace TvLeanback
 {
 	public class DetailsDescriptionPresenter : AbstractDetailsDescriptionPresenter

@@ -6,18 +6,19 @@ using Android.OS;
 using Android.Util;
 using Android.Widget;
 using Android.Support.V4.App;
-using Android.Support.V17.Leanback.App;
-using Android.Support.V17.Leanback.Widget;
-using Action = Android.Support.V17.Leanback.Widget.Action;
+using Action = AndroidX.Leanback.Widget.Action;
 
 using Java.IO;
 using Java.Net;
 using Java.Util;
 using Squareup.Picasso;
+using AndroidX.Leanback.Widget;
+using AndroidX.Leanback.App;
+using AndroidX.Core.App;
 
 namespace TvLeanback
 {
-	public class LeanbackDetailsFragment : Android.Support.V17.Leanback.App.DetailsFragment, IBaseOnItemViewClickedListener
+	public class LeanbackDetailsFragment : AndroidX.Leanback.App.DetailsFragment, IBaseOnItemViewClickedListener
 	{
 		private static readonly string TAG = "DetailsFragment";
 

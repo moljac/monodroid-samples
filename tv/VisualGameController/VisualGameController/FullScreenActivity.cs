@@ -8,7 +8,6 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using Android.Support.V7;
 using Android.Annotation;
 using Android.Hardware.Input;
 using Android.Util;

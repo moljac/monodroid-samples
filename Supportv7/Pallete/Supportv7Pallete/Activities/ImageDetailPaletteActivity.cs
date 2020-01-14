@@ -5,12 +5,12 @@ using Android.App;
 using Android.OS;
 using Android.Views;
 using Android.Widget;
-using Android.Support.V7.Graphics;
 using Supportv7Pallete.Utils;
 using Android.Graphics;
 using Android.Graphics.Drawables;
-using Android.Support.V7.App;
-using Toolbar = Android.Support.V7.Widget.Toolbar;
+using Toolbar = AndroidX.AppCompat.Widget.Toolbar;
+using AndroidX.AppCompat.App;
+using AndroidX.Palette.Graphics;
 
 namespace Supportv7Pallete
 {

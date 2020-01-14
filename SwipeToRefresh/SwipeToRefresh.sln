@@ -1,5 +1,8 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29521.150
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwipeToRefresh", "SwipeToRefresh\SwipeToRefresh.csproj", "{CF0DA8DE-8D26-4B7D-8393-E0A129D147AD}"
 EndProject
 Global
@@ -8,14 +11,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BCE98C50-BDB6-49C4-AFB4-78EB1357A3F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BCE98C50-BDB6-49C4-AFB4-78EB1357A3F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BCE98C50-BDB6-49C4-AFB4-78EB1357A3F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BCE98C50-BDB6-49C4-AFB4-78EB1357A3F2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CF0DA8DE-8D26-4B7D-8393-E0A129D147AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CF0DA8DE-8D26-4B7D-8393-E0A129D147AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF0DA8DE-8D26-4B7D-8393-E0A129D147AD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{CF0DA8DE-8D26-4B7D-8393-E0A129D147AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF0DA8DE-8D26-4B7D-8393-E0A129D147AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF3DBB54-0BB1-4D62-9682-1DAA0EADA278}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = SwipeToRefreshTest\SwipeToRefreshTest.csproj

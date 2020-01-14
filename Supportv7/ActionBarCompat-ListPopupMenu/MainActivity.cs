@@ -16,13 +16,13 @@
 
 using Android.App;
 using Android.OS;
-using Android.Support.V7.App;
+using AndroidX.AppCompat.App;
 
 namespace ActionBarCompatListPopupMenu
 {
 	[Activity (Label = "@string/app_name", MainLauncher = true, Icon = "@drawable/icon")]
 	/// <summary>
-	/// This sample shows you how to use <see cref="Android.Support.V7.Widget.PopupMenu"/> from
+	/// This sample shows you how to use <see cref="AndroidX.AppCompat.Widget.PopupMenu"/> from
 	/// ActionBarCompat to create a list, with each item having a dropdown menu.
 	/// 
 	/// The interesting part of this sample is in <see cref="ActionBarCompatListPopupMenu.PopupListFragment"/> 

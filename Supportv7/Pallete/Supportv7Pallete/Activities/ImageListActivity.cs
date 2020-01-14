@@ -4,8 +4,8 @@ using Android.OS;
 using Android.Views;
 using Android.Widget;
 using Supportv7Pallete.Utils;
-using Android.Support.V7.App;
-using Toolbar = Android.Support.V7.Widget.Toolbar;
+using Toolbar = AndroidX.AppCompat.Widget.Toolbar;
+using AndroidX.AppCompat.App;
 
 namespace Supportv7Pallete
 {

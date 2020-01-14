@@ -3,13 +3,12 @@
 using Android.App;
 using Android.Content;
 using Android.OS;
-using Android.Support.V4.App;
-using Android.Support.V7.App;
 using Android.Widget;
-
+using AndroidX.AppCompat.App;
+using AndroidX.Core.App;
 using Java.Lang;
 
-using TaskStackBuilder = Android.Support.V4.App.TaskStackBuilder;
+using TaskStackBuilder = AndroidX.Core.App.TaskStackBuilder;
 
 namespace Notifications
 {

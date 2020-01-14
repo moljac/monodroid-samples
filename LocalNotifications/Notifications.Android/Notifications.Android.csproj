@@ -13,7 +13,7 @@
     <AndroidApplication>true</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
-    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
     <NuGetPackageImportStamp>
@@ -28,6 +28,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>None</AndroidLinkMode>
+    <AndroidUseAapt2>true</AndroidUseAapt2>
+    <AndroidDexTool>d8</AndroidDexTool>
+    <AndroidLinkTool>r8</AndroidLinkTool>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -89,8 +92,15 @@
   </Target>
   -->
   <ItemGroup>
-    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat">
-      <Version>27.0.2.1</Version>
+    <PackageReference Include="Xamarin.AndroidX.AppCompat">
+      <Version>1.1.0-rc1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData" Version="2.1.0-rc1" />
+    <PackageReference Include="Xamarin.AndroidX.Legacy.Support.Core.UI" Version="1.0.0-rc1" />
+    <PackageReference Include="Xamarin.AndroidX.Fragment" Version="1.1.0-rc1" />
+    <PackageReference Include="Xamarin.AndroidX.AppCompat.Resources" Version="1.1.0-rc1" />
+    <PackageReference Include="Xamarin.AndroidX.Migration">
+      <Version>1.0.0-rc1</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

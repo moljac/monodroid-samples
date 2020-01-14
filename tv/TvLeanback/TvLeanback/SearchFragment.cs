@@ -7,14 +7,14 @@ using Java.Util;
 using Android.Annotation;
 using Android.Content;
 using Android.OS;
-using Android.Support.V17.Leanback.Widget;
 using Android.Text.Util;
 using Android.Util;
+using AndroidX.Leanback.Widget;
 
 namespace TvLeanback
 {
-	public class SearchFragment : Android.Support.V17.Leanback.App.SearchFragment, IOnItemViewClickedListener,
-		Android.Support.V17.Leanback.App.SearchFragment.ISearchResultProvider
+	public class SearchFragment : AndroidX.Leanback.App.SearchFragment, IOnItemViewClickedListener,
+		AndroidX.Leanback.App.SearchFragment.ISearchResultProvider
 	{
 		private static  string TAG = "SearchFragment";
 		private static  int SEARCH_DELAY_MS = 300;

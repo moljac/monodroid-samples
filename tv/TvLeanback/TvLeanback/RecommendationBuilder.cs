@@ -6,9 +6,8 @@ using Android.OS;
 using Android.Graphics;
 using Android.Util;
 
-using Android.Support.V4.App;
-
 using Squareup.Picasso;
+using AndroidX.Core.App;
 
 namespace TvLeanback
 {

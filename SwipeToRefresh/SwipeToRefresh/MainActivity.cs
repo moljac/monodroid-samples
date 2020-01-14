@@ -8,13 +8,13 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
-using Android.Support.V4.Widget;
 using Android.Util;
+using AndroidX.SwipeRefreshLayout.Widget;
 
 namespace SwipeToRefresh
 {
 	[Activity (Label = "Swipe Refresh", MainLauncher = true, Theme = "@style/XamActionBarTheme")]
-	public class MainActivity : Android.Support.V4.App.FragmentActivity
+	public class MainActivity : AndroidX.Fragment.App.FragmentActivity
 	{
 		PostListFragment forum;
 		SwipeRefreshLayout refresher;

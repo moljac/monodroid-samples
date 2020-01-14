@@ -27,7 +27,7 @@
             android:scaleType="centerCrop"
             android:src="@drawable/monkey"
             android:clickable="true" />
-        <android.support.v7.widget.Toolbar
+        <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar_bottom"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

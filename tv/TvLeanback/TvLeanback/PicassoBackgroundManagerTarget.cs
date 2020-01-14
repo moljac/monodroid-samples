@@ -2,8 +2,8 @@
 
 using Android.Graphics.Drawables;
 using Android.Graphics;
-using Android.Support.V17.Leanback.App;
 using Squareup.Picasso;
+using AndroidX.Leanback.App;
 
 namespace TvLeanback
 {

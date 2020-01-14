@@ -17,15 +17,15 @@
 using System;
 using System.Collections.Generic;
 using Android.OS;
-using Android.Support.V4.App;
 using Android.Views;
 using Android.Widget;
+using AndroidX.Fragment.App;
 
 namespace ActionBarCompatListPopupMenu
 {
 	/// <summary>
 	/// This ListFragment displays a list of cheeses, with a clickable view on each item whichs displays
-	/// a <see cref="Android.Support.V7.Widget.PopupMenu"/> when clicked, allowing the user to
+	/// a <see cref="AndroidX.AppCompat.Widget.PopupMenu"/> when clicked, allowing the user to
 	/// remove the item from the list.
 	/// </summary>
 	public class PopupListFragment : ListFragment, View.IOnClickListener
@@ -82,7 +82,7 @@ namespace ActionBarCompatListPopupMenu
 			var item = (string)view.Tag;
 
 			// Create a PopupMenu, giving it the clicked view for an anchor
-			Android.Support.V7.Widget.PopupMenu popup = new Android.Support.V7.Widget.PopupMenu (Activity, view);
+			AndroidX.AppCompat.Widget.PopupMenu popup = new AndroidX.AppCompat.Widget.PopupMenu(Activity, view);
 
 			// Inflate our menu resource into the PopupMenu's Menu
 			popup.MenuInflater.Inflate (Resource.Menu.popup, popup.Menu);
@@ -95,7 +95,7 @@ namespace ActionBarCompatListPopupMenu
 		}
 
 
-		class MyOnMenuItemClickListener : Java.Lang.Object, Android.Support.V7.Widget.PopupMenu.IOnMenuItemClickListener
+		class MyOnMenuItemClickListener : Java.Lang.Object, AndroidX.AppCompat.Widget.PopupMenu.IOnMenuItemClickListener
 		{
 
 			readonly PopupAdapter myAdapter;

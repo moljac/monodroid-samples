@@ -22,7 +22,7 @@ using Android.Net.Http;
 
 namespace SwipeToRefresh
 {
-	public class PostListFragment : Android.Support.V4.App.ListFragment
+	public class PostListFragment : AndroidX.Fragment.App.ListFragment
 	{
 		bool loading;
 		PostListAdapter adapter;

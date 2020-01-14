@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29521.150
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supportv7Toolbar", "Supportv7Toolbar\Supportv7Toolbar.csproj", "{72FF247E-48FC-4828-BB0A-6D81E803245C}"
 EndProject
 Global
@@ -11,8 +13,15 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{72FF247E-48FC-4828-BB0A-6D81E803245C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{72FF247E-48FC-4828-BB0A-6D81E803245C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72FF247E-48FC-4828-BB0A-6D81E803245C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{72FF247E-48FC-4828-BB0A-6D81E803245C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72FF247E-48FC-4828-BB0A-6D81E803245C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {539AFA68-275C-4ECE-B8F5-B9FA290B2D22}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = HelloToolbar\HelloToolbar.csproj

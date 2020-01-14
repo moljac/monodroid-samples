@@ -5,12 +5,12 @@ using Java.Util;
 
 using Android.Content;
 using Android.OS;
-using Android.Support.V17.Leanback.Widget;
 using Android.Util;
+using AndroidX.Leanback.Widget;
 
 namespace TvLeanback
 {
-	public class VertivalGridFragment : Android.Support.V17.Leanback.App.VerticalGridFragment, IOnItemViewClickedListener, IOnItemViewSelectedListener
+	public class VertivalGridFragment : AndroidX.Leanback.App.VerticalGridFragment, IOnItemViewClickedListener, IOnItemViewSelectedListener
 	{
 		private static string TAG = "VerticalGridFragment";
 

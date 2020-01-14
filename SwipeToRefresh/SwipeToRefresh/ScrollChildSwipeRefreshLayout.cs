@@ -9,8 +9,8 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
-using Android.Support.V4.Widget;
-using Android.Support.V4.View;
+using AndroidX.Core.View;
+using AndroidX.SwipeRefreshLayout.Widget;
 
 namespace SwipeToRefresh
 {

@@ -4,8 +4,6 @@ using System.Collections.Generic;
 using Android.OS;
 using Android.App;
 
-using Android.Support.V17.Leanback.Widget;
-using Android.Support.V17.Leanback.App;
 using Squareup.Picasso;
 
 using Android.Graphics;
@@ -17,6 +15,8 @@ using Android.Views;
 
 using Java.Net;
 using Java.Util;
+using AndroidX.Leanback.App;
+using AndroidX.Leanback.Widget;
 
 namespace TvLeanback
 {
