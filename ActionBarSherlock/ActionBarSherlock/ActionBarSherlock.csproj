@@ -14,10 +14,11 @@
     <MonoAndroidJavaPrefix>Java</MonoAndroidJavaPrefix>
     <MonoAndroidTransformPrefix>Transforms</MonoAndroidTransformPrefix>
     <AssemblyName>ActionBarSherlock</AssemblyName>
-    <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <JavaDocPaths>../JakeWharton-ActionBarSherlock-5a15d92/target/apidocs/</JavaDocPaths>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <AndroidClassParser>class-parse</AndroidClassParser>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>

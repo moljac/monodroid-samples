@@ -36,4 +36,15 @@
   <attr path="/api/package[@name='com.urbanairship']/class[@name='AirshipConfigOptions']/field[@name='transport']" name="managedName">TransportField</attr>
 
   <attr path="/api/package/class/method[@name='compareTo']/parameter[1]" name="managedType">Java.Lang.Object</attr>
-</metadata>
+
+   <add-node path="/api/package/class[implements[@name='java.util.Comparator']]">
+        <method 
+            visibility="public" static="false" abstract="false" return="int" name="compare" 
+            native="false" synchronized="false" final="false" deprecated="not deprecated" 
+            >
+            <parameter type="java.lang.Object" name="lhs"  />
+            <parameter type="java.lang.Object" name="rhs"  />
+        </method>
+    </add-node>
+    
+ </metadata>

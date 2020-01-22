@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.xamarin.samples.urbanairship.pushsample">
-	<uses-sdk android:minSdkVersion="9" />
+	<uses-sdk android:minSdkVersion="9" android:targetSdkVersion="28" />
 	<application android:label="XamarinUAirshipPushSample">
 		<!-- REQUIRED for Urban Airship GCM-->
 		<receiver android:name="com.urbanairship.CoreReceiver" />
@@ -17,7 +17,6 @@
 				<data android:scheme="package" />
 			</intent-filter>
 		</receiver>
-
 		<service android:name="com.urbanairship.push.PushWorkerService" android:label="Push Notification Worker Service" />
 		<service android:name="com.urbanairship.analytics.EventService" android:label="Event Service" />
 		<service android:name="com.urbanairship.push.PushService" android:label="Push Notification Service" />
