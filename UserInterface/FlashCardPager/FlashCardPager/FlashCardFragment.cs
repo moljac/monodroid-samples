@@ -12,7 +12,7 @@ using Android.Support.V4.App;
 
 namespace FlashCardPager
 {
-    public class FlashCardFragment : Android.Support.V4.App.Fragment
+    public class FlashCardFragment : AndroidX.Fragment.App.Fragment
     {
         // Define Bundle keys for the flash card question and answer
         private static string FLASH_CARD_QUESTION = "card_question";

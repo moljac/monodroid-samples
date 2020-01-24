@@ -1,6 +1,6 @@
 namespace ViewPagerIndicator_Example
 {
-    using Android.Support.V4.App;
+    using AndroidX.Fragment.App;
     using JavaString = Java.Lang.String;
 
     public class TestFragmentAdapter : FragmentPagerAdapter

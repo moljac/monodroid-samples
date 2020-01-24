@@ -6,10 +6,9 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using Android.Support.V4.View;
-using Android.Support.V4.App;
+using AndroidX.ViewPager.Widget;
 
-using FragmentManager = Android.Support.V4.App.FragmentManager;
+using FragmentManager = AndroidX.Fragment.App.FragmentManager;
 
 namespace ViewPagerIndicator
 {
@@ -18,7 +17,7 @@ namespace ViewPagerIndicator
 	public class SampleTabsDefault : BaseSampleActivity
 	{
 		public static string[] CONTENT = new string[] { "Recent", "Artists", "Albums", "Songs", "Playlists", "Genres" };
-
+			
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
@@ -40,7 +39,7 @@ namespace ViewPagerIndicator
 			{
 			}
 			
-			public override Android.Support.V4.App.Fragment GetItem (int position)
+			public override AndroidX.Fragment.App.Fragment GetItem (int position)
 			{
 				return new TestFragment (SampleTabsDefault.CONTENT [position % SampleTabsDefault.CONTENT.Length]);
 			}

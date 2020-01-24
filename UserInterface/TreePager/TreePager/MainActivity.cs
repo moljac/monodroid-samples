@@ -5,8 +5,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using Android.Support.V4.View;
-using Android.Support.V4.App;
+using AndroidX.ViewPager.Widget;
 
 namespace TreePager
 {

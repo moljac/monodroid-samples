@@ -9,7 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Android.Support.V4.App;
+using AndroidX.Fragment.App;
 
 namespace FlashCardPager
 {
@@ -19,7 +19,7 @@ namespace FlashCardPager
         public FlashCardDeck flashCardDeck;
 
         // Constructor accepts a deck of flash cards:
-        public FlashCardDeckAdapter(Android.Support.V4.App.FragmentManager fm, FlashCardDeck flashCards) 
+        public FlashCardDeckAdapter(AndroidX.Fragment.App.FragmentManager fm, FlashCardDeck flashCards) 
             : base(fm)
         {
             this.flashCardDeck = flashCards;
@@ -29,9 +29,9 @@ namespace FlashCardPager
         public override int Count { get { return flashCardDeck.NumCards; } }
 
         // Returns a new fragment for the flash card at this position:
-        public override Android.Support.V4.App.Fragment GetItem(int position)
+        public override AndroidX.Fragment.App.Fragment GetItem(int position)
         {
-            return (Android.Support.V4.App.Fragment)
+            return (AndroidX.Fragment.App.Fragment)
                 FlashCardFragment.newInstance(flashCardDeck[position].Problem, flashCardDeck[position].Answer);
         }
 

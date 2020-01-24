@@ -9,8 +9,8 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Android.Support.V4.View;
 using Android.Graphics;
+using AndroidX.ViewPager.Widget;
 
 namespace ViewPagerIndicator
 {
